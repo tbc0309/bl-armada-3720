@@ -43,7 +43,13 @@ static int do_lzmadec(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
 	printf("Uncompressed size: %ld = %#lX\n", (ulong)src_len,
 	       (ulong)src_len);
 	env_set_hex("filesize", src_len);
-
+	
+	printf("=================== MAOPAN.CC ===================\n");
+	printf("|                                               |\n");
+	printf("|                  Enjoy  it !                  |\n");
+	printf("|                                               |\n");
+	printf("=============== MIJICN.TAOBAO.COM ===============\n");
+	
 	return 0;
 }
 
