@@ -41,7 +41,7 @@
 	phy-mode = "sgmii";
 	phy = <&ethphy0>;
 	pinctrl-names = "default";
-	pinctrl-0 = <&ptp_pins &smi_pins>;
+	pinctrl-0 = <&smi_pins>;
 };
 
 &pinctrl_sb {
